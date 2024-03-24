@@ -1,0 +1,11 @@
+{
+  "codeowners": ["@sigrist"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/sigrist/inmet_alerts",
+  "domain": "inmet_alerts",
+  "iot_class": "cloud_polling",
+  "name": "Alertas Meteorológicos InMet",
+  "requirements": ["requests>=2.25.1"],
+  "version": "1.0.0"
+}
