@@ -1,11 +1,11 @@
 {
-  "codeowners": ["@sigrist"],
-  "config_flow": true,
-  "dependencies": [],
-  "documentation": "https://github.com/sigrist/inmet_alerts",
-  "domain": "inmet_alerts",
-  "iot_class": "cloud_polling",
-  "name": "Alertas Meteorológicos InMet",
-  "requirements": ["requests>=2.25.1"],
-  "version": "1.0.0"
-}
+    "domain": "inmet",
+    "name": "HA InMet Alerts",
+    "codeowners": ["@sigrist"],
+    "config_flow": false,
+    "dependencies": [],
+    "documentation": "https://www.home-assistant.io/integrations/inmet",
+    "iot_class": "cloud_polling",
+    "requirements": []
+  }
+  
